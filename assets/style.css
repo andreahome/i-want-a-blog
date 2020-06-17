@@ -1,0 +1,133 @@
+@import "./blog-homepage-style.css"; /* css for blog homepage */
+@import "./blog-post-style.css"; /* css for blog post */
+@import "./general-style.css"; /* css for common parts such as header and footer */
+
+* {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 16px;
+    color:#000000;
+}
+
+body {
+    margin:0;
+}
+
+h1 {
+    color:#085487;
+    font-size:24px;
+}
+
+h2 {
+    font-size:18px;
+}
+
+h3 {
+    color: #262626;
+    font-size:16px;
+}
+
+a {
+    text-decoration:none;
+}
+
+ul.menu-item-container {
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+li.menu-items a {
+    margin:0 0 0 20px;
+    text-transform:uppercase;
+    letter-spacing:0.2rem;
+    font-weight:600;
+    font-size:13px;
+    color:#262626;
+}
+
+li.menu-items a:hover {
+    color:#085487;
+}
+
+#cta-menu-item {
+    background-color:#085487;
+    color:#ffffff;
+    border:1px solid #085487;
+    border-radius:5px;
+    padding: 10px;
+    margin:5px;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+}
+
+#cta-menu-item a {
+    color:#ffffff;
+    font-size:13px;
+}
+
+button.read-me-buttons {
+    background-color:#085487;
+    color:#ffffff;
+    border:1px solid #085487;
+    border-radius:5px;
+    padding: 10px;
+    margin:5px;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+    cursor:pointer;
+}
+
+button#read-me-main-button {
+    background-color:#085487;
+    color:#ffffff;
+    border:1px solid #085487;
+    border-radius:5px;
+    padding: 10px;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+    cursor:pointer;
+}
+
+.logo-image {
+    width:100%;
+}
+
+ul.social-container {
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    padding:40px 20px;
+    justify-content: flex-end;
+}
+
+.social-icons {
+    width:30px;
+    height:auto;
+    margin:0 0 0 20px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 980px) {
+    
+
+}
+
+
+
+@media screen and (max-width: 719px) {
+ul.menu-item-container {
+    list-style-type:none;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+
+* {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 14px;
+    color:#000000;
+}
+
+}

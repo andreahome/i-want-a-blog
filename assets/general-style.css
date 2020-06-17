@@ -1,0 +1,46 @@
+/* For screens bigger than 981px */
+
+footer {
+    grid-area:footer;
+    padding:0 10px;
+    background-color:#000000;
+    min-height:100px;
+}
+
+p.copyright {
+    color:#ffffff;
+    padding: 40px 0;
+    float:left;
+}
+
+header {
+    grid-area:header;
+}
+
+div.logo {
+    float:left;
+    padding:15px 0;
+}
+
+nav.navigation {
+    float:right;
+    padding: 20px 10px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 980px) {
+    
+
+}
+
+@media screen and (max-width: 719px) {
+    div.logo {
+        float:left;
+        padding:15px 0;
+    }
+    
+    nav.navigation {
+        float:right;
+        padding: 20px 10px;
+    }
+
+}
